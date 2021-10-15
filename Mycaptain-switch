@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() 
+{
+	int x;
+	printf("enter the item no: ");
+	scanf("%d", &x);
+	switch(x)
+	{
+		case 1:
+			printf("food item-French fries\nPrice-Rs 99");
+			break;
+		case 2:
+			printf("food item-Pasta\nPrice-Rs 179");	
+			break;
+		case 3:
+			printf("food item-pizza\nPrice-Rs 239");
+			break;
+		case 4:
+			printf("food item-burger\nPrice-Rs 129");
+			break;
+		case 5:
+			printf("food item-Sandwich\nPrice-Rs 149");
+			break;
+		default: printf("no food item");
+		
+	}
+	return 0;
+}
